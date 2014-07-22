@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'south',
     'tasks',
 )
 
@@ -61,9 +62,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
         'SERVICE_NAME': 'orcl',
-        'USER': 'ehflores',
-        'PASSWORD': 'flowersx',
-        'HOST': '192.130.12.2',
+        'USER': 'controlesit',
+        'PASSWORD': 'controlesit',
+        'HOST': '192.130.12.4',
         'PORT': '1521'
     }
 }
